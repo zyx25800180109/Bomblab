@@ -437,11 +437,11 @@ v2 = v1 ^ ((t_lo ^ t_hi) + pick + 0x4447 + ((c_lo ^ c_hi) >> 1));
 
 ### 验证
 
-| seed | challenge | context | 输出 | 结果 |
-| --- | --- | --- | --- | --- |
-| 31337 | 0x... | — | `OPEN 1 1960115969 1709344711` | Secret phase defused. |
-| 123456789 | 0x... | — | `OPEN 3 3360098794 2348789331` | Secret phase defused. |
-| 999999999999 | 0x... | — | `OPEN 2 812288852 369253848` | Secret phase defused. |
+| seed | 输出 | 结果 |
+| --- | --- | --- |
+| 31337 | `OPEN 1 1960115969 1709344711` | Secret phase defused. |
+| 123456789 | `OPEN 3 3360098794 2348789331` | Secret phase defused. |
+| 999999999999 | `OPEN 2 812288852 369253848` | Secret phase defused. |
 
 ## 8. 非公开 seed 整体验证
 
