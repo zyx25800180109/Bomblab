@@ -1,0 +1,19 @@
+{
+  "download_id": "36dc01125941acbc8aac8196ba82202342244a5a2f5d9d98ec6f75036f58a5d5",
+  "files": {
+    "bomb": "98f5ecb8289a4e750d1b0adc6ff0ba1a8d0997774ab26560260fdafdf2002e95"
+  },
+  "lab_version": "2026fall-v1",
+  "package_id": "dd6d58740ce9f6f9e2829e66",
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "protocol": "splitmix64-phase-v1",
+  "secret": true
+}
